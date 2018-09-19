@@ -1,0 +1,129 @@
+﻿body, html {
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    overflow: hidden;
+    background-color: #3498DB;
+}
+body, p{
+        
+    font-family: Arial;
+    font-size: 14px;
+    display: block;
+}
+
+
+#loginBlock {
+    margin: 20px auto;
+    padding: 20px;
+    background-color:#FFF;
+    width: 300px;
+    border-radius: 5px;
+           
+}
+
+        #Error {
+            width: 80%;
+            left: 10%;
+            position: absolute;
+            height: 10%;
+            top: 91%;
+            color: Red;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        #LastRefresh {
+            display: inline;
+            position: absolute;
+            font-size: xx-small;
+            text-align: right;
+            top: 7%;
+            left: 10%;
+            width: 80%;
+        }
+
+#Username {
+    text-align: center;
+    background-color: #3498DB;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+    width: 100px;
+    transition: border .5s;
+}
+#Users {
+    position: absolute;
+    width: 25%;
+    left: 1%;
+    height: 98%;
+    top: 1%;
+    background-color: #ddd;
+    text-align: left;
+}
+
+    #Messages {
+        position: absolute;
+        width: 72%;
+        left: 27%;
+        height: 80%;
+        top: 1%;
+        background-color: #ddd;
+        text-align: left;
+        font-size: x-small;
+        overflow-y: scroll;
+    }
+
+    #inputForm {
+        position: absolute;
+        width: 72%;
+        left: 27%;
+        height: 12%;
+        top: 82%;
+        min-height: 60px;
+        background: #eee;
+        border: 1px solid silver;
+        border-radius: 4px;
+        vertical-align: middle;
+    }
+    .serverMes {
+
+        color:#808080;
+        font-weight:bold;
+    }
+
+input {
+    text-align: center;
+    background-color: #ECF0F1;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+    width: 250px;
+    transition: border .5s;
+}
+
+button {
+    border: 2px solid transparent;
+    background: #3498DB;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    box-shadow: none;
+    transition: 0.25s;
+    display: block;
+    margin: auto;
+    width: 250px;
+}
+    table, textarea{
+
+        width:100%;
+    }
+    
